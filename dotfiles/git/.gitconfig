@@ -1,0 +1,60 @@
+[user]
+	name = Felipe Finhane
+	email = felipefinhane@example.com
+
+[core]
+	editor = vim
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+
+[init]
+	defaultBranch = main
+
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	status = auto
+
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	ca = commit -a
+	cm = commit -m
+	cam = commit -am
+	df = diff
+	dc = diff --cached
+	lg = log --oneline --graph --decorate
+	lga = log --oneline --graph --decorate --all
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+	amend = commit --amend
+	unstage = reset HEAD --
+	last = log -1 HEAD
+
+[push]
+	default = simple
+
+[pull]
+	rebase = false
+
+[merge]
+	tool = vimdiff

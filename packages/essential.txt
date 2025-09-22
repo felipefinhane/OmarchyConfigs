@@ -1,0 +1,44 @@
+# Essential packages for Omarchy setup
+# Base system utilities
+base-devel
+linux-headers
+git
+vim
+nano
+htop
+tree
+unzip
+wget
+curl
+rsync
+openssh
+
+# Network utilities
+networkmanager
+networkmanager-openconnect
+bind-tools
+traceroute
+
+# Audio/Video
+alsa-utils
+pulseaudio
+pavucontrol
+vlc
+
+# Development tools
+code
+nodejs
+npm
+python
+python-pip
+
+# File management
+ranger
+fzf
+ripgrep
+fd
+
+# System monitoring
+neofetch
+lm_sensors
+iotop

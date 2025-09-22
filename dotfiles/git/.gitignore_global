@@ -1,0 +1,44 @@
+# Global gitignore for Omarchy setup
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*~
+*.swp
+*.swo
+*.tmp
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Log files
+*.log
+
+# Archive files
+*.tar
+*.gz
+*.zip
+*.rar
+
+# Compiled files
+*.o
+*.a
+*.so
+*.pyc
+*.pyo
+__pycache__/
+
+# Local env files
+.env
+.env.local
