@@ -1,0 +1,22 @@
+# AUR packages for Omarchy setup
+# AUR helper
+yay
+
+# Applications
+google-chrome
+discord
+spotify
+visual-studio-code-bin
+
+# System utilities
+neofetch-git
+gotop-bin
+
+# Development
+postman-bin
+dbeaver
+
+# Fonts
+ttf-jetbrains-mono
+ttf-fira-code
+nerd-fonts-complete
